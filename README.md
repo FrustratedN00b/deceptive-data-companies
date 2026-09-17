@@ -170,3 +170,13 @@ exempt their domains locally if you choose to keep them.
 
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public
 domain. Use it, fork it, embed it.
+
+## Donations
+
+Donations aren't expected but are appreciated. A bigger "payment" is to
+spread the word! Thanks for using my blocklist.
+
+- **Monero (XMR):**
+  `8AxzaN48KUxi8UW1HUND2zMQrgZvgxC4BU7rdvDRMAxyeh7yF8wgeM7fy2UPAcKKireGNKAvpYrhBBhGiGW8so1p57F9sQk`
+- **Zcash (shielded z-addr only):**
+  `u18xy57cmzvgtjw8nrph766zqzpv6khjmemwde4z2j9qerly06aagkull5u097ptr3usa2qfm540820cy9ep5ezpxtt8cgjhn830em7tc8nnrjwryz9kzpdzsumr4eqmwekwww66nmr9m0j8zzkx99gfyyhcl28qwc4t6trswezy8unssl`
