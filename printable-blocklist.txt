@@ -1,0 +1,108 @@
+Deceptive Data Companies - Blocklist
+=====================================
+38 rules - Regex version (blocks each domain AND all subdomains)
+Printable reference copy - 2026-09-18
+
+REGEX RULES
+-----------
+(\.|^)anchorfree.com$
+(\.|^)aura.com$
+(\.|^)avast.com$
+(\.|^)avg.com$
+(\.|^)betternet.co$
+(\.|^)betternet.com$
+(\.|^)ccleaner.com$
+(\.|^)crossrider.com$
+(\.|^)cyberghost.pw$
+(\.|^)cyberghostvpn.com$
+(\.|^)earthvpn.com$
+(\.|^)expressvpn.com$
+(\.|^)hidemyass.com$
+(\.|^)hma.com$
+(\.|^)hola.org$
+(\.|^)holavpn.com$
+(\.|^)holiday.com$
+(\.|^)hotspotshield.com$
+(\.|^)hoxx.com$
+(\.|^)intego.com$
+(\.|^)ipvanish.com$
+(\.|^)kape.com$
+(\.|^)lifelock.com$
+(\.|^)norton.com$
+(\.|^)onavo.com$
+(\.|^)opera-proxy.net$
+(\.|^)pcprotect.com$
+(\.|^)piavpn.com$
+(\.|^)privateinternetaccess.com$
+(\.|^)purevpn.com$
+(\.|^)scanguard.com$
+(\.|^)totalav.com$
+(\.|^)touchvpn.net$
+(\.|^)vpnmentor.com$
+(\.|^)webselenese.com$
+(\.|^)wizcase.com$
+(\.|^)zenmate.com$
+(\.|^)zenmate.io$
+
+PLAIN DOMAINS (same 38)
+-----------------------
+anchorfree.com        intego.com
+aura.com              ipvanish.com
+avast.com             kape.com
+avg.com               lifelock.com
+betternet.co          norton.com
+betternet.com         onavo.com
+ccleaner.com          opera-proxy.net
+crossrider.com        pcprotect.com
+cyberghost.pw         piavpn.com
+cyberghostvpn.com     privateinternetaccess.com
+earthvpn.com          purevpn.com
+expressvpn.com        scanguard.com
+hidemyass.com         totalav.com
+hma.com               touchvpn.net
+hola.org              vpnmentor.com
+holavpn.com           webselenese.com
+holiday.com           wizcase.com
+hotspotshield.com     zenmate.com
+hoxx.com              zenmate.io
+
+COMPANY NOTES (one line each)
+-----------------------------
+AnchorFree      ex-owner of Hotspot Shield; FTC complaint 2017 (CDT)
+Aura            bought Pango 2020; owns Hotspot Shield/Betternet/TouchVPN
+Avast           Jumpshot scandal: sold users' browsing histories (2020)
+AVG             Avast sibling, same Gen Digital parent
+Betternet       Aura/Pango lineage; privacy marketing, data harvesting
+CCleaner        Avast-owned Piriform; 2017 supply-chain attack, 2.27M PCs
+Crossrider      Kape's former identity; adware platform origin
+CyberGhost      Kape-owned; cyberghost.pw = legacy mirror (now dead)
+EarthVPN        "no-logs" -> logs handed to Dutch police, 2016 arrest
+ExpressVPN      Kape-owned; holiday.com is a sibling Kape brand (eSIM)
+HideMyAss/HMA   2011: logs helped UK police identify LulzSec's Topiary
+Hola            sold users' idle bandwidth as residential proxy network
+Holavpn         Hola family
+Holiday.com     Kape's eSIM service (ownership umbrella block)
+Hotspot Shield  2017 FTC complaint: traffic interception for ad targeting
+Hoxx            free proxy "VPN"; flagged by independent reviewers
+Intego          Kape-owned (Mac security); umbrella block
+IPVanish        "no-logs" -> logs handed to DHS, 2016
+Kape            the umbrella itself: ex-Crossrider, owns the reviewers
+LifeLock        2010 FTC settlement; ~$100M contempt judgment 2015
+Norton          Gen Digital layer (Avast merged with NortonLifeLock 2022)
+Onavo           Facebook "VPN" = data-collection tool; pulled by Apple
+Opera Proxy     Chinese consortium-owned; browser proxy marketed as VPN
+PCProtect       scareware tier (TotalAV family)
+PIA             Kape-owned (Private Internet Access)
+PureVPN         "strict no-logs" -> FBI connection logs, 2017 case
+ScanGuard       scareware tier (TotalAV family)
+TotalAV         Comparitech-documented hard-to-cancel renewal funnel
+TouchVPN        Aura/Pango lineage
+vpnMentor       Kape-owned review site (ranks Kape products highly)
+Webselenese     Kape's review-site publisher parent (2021 acquisition)
+Wizcase         Kape-owned review site
+ZenMate         Kape-owned
+
+Know what you're blocking: avast.com/avg.com/ccleaner.com/norton.com/
+lifelock.com rules stop those products' updates and telemetry. Windows
+and macOS keep working (Defender / XProtect). Remove those products
+before enabling, or exempt their domains locally if you keep them.
